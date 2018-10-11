@@ -1,0 +1,16 @@
+-Values stored in an array are called items/elements
+-Subscripts and index reference to position of array
+-Subscripts begin at 0 
+	-In Java, you don't have to worry about using pointer
+	-Java does not accept negative subscripts
+
+Array in Java:
+	1-D: type[] array_name = new type[# of elements];
+
+Multi-Dimention Array
+	2-D: type[][] array_name = new type[# of rows][# of columns];
+	3-D: type[][][] array_name = new type[# of rows][# of columns][# of 'pages'];
+
+Passing Arrays to Methods:
+	
+
