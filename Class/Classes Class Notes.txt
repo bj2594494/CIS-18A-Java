@@ -21,6 +21,16 @@ Class Codes:
 		get memberVarName 
 		set memberVarName 
 		
+		public class name{
+		    class code
+		}
+		
+driver - a program with a main mehtod/function where we can do basic tests on a class
+
+	to use class in main: 
+		ClassType objectName = new ClassType();
+
+			
 
 
 	
