@@ -8,9 +8,9 @@ Class:
 Access modifiers: tell Java what scope of visibilty an attribute of method has
 
 	1. Default - No keyword required, accessible only within the same package
-	2. Private - keyword "private," accessible only within the class in which they are declared
-	3. Protected - keyword "protected," accessible within the same package or sub classes in different package
-	4. Public - keyword "public," widest scope, accessible form every where in the program
+	2. Private - keyword "private," accessible only within the class in which they are declared (-)
+	3. Protected - keyword "protected," accessible within the same package or sub classes in different package (#)
+	4. Public - keyword "public," widest scope, accessible form every where in the program (+)
 
 data encapsulation: information hiding -> make member variable private
 
