@@ -1,4 +1,4 @@
-package bdj;
+package pjc;
 
 public class Fractions {
     private int numerator;
@@ -15,8 +15,8 @@ public class Fractions {
      * @param numerator the numerator to set
      */
     public void setNumerator(int numerator) {
-        int g = this.gcd(numerator, this.denominator);
-        this.numerator = numerator/g;
+        //int g = this.gcd(numerator, this.denominator);
+        this.numerator = numerator;
     }
 
     /**
@@ -30,12 +30,13 @@ public class Fractions {
      * @param denominator the denominator to set
      */
     public void setDenominator(int denominator) {
-        if (denominator !=0)
+        if (denominator != 0)
         {
+            //int g = this.gcd(this.numerator, denominator);
             this.denominator = denominator;
         }
         else
-            throw new IllegalArgumentException("Denominator cannot be zero");
+            throw new IllegalArgumentException("Denominator cannot be zero!");
     }
     
     // constructors
@@ -49,7 +50,7 @@ public class Fractions {
     {
         int g = this.gcd(numerator, denominator);
         this.setNumerator(numerator/g);
-        this.setDenominator(denominator/g);
+        this.setDenominator(denominator/g);                
     }
     
     public Fractions(Fractions org)
@@ -57,17 +58,17 @@ public class Fractions {
         this.setNumerator(org.getNumerator());
         this.setDenominator(org.getDenominator());
     }
-    
+        
     @Override
     public String toString()
     {
         return this.numerator + " / " + this.denominator;
     }
     
-    private int gcd(int a,int b)
+    private int gcd(int a, int b)
     {
-        if(a==0) return b;
-        return gcd(b%a,a);
+        if (a==0) return b;
+        return gcd( b%a, a );
     }
     
     public Fractions add(Fractions op2)
@@ -77,7 +78,7 @@ public class Fractions {
         int c = op2.numerator;
         int d = op2.denominator;
         
-        return new Fractions(a*d + b*c, b*d);
+        return new Fractions(a*d + b*c, b*d );
     }
     
     public Fractions sub(Fractions op2)
@@ -87,7 +88,7 @@ public class Fractions {
         int c = op2.numerator;
         int d = op2.denominator;
         
-        return new Fractions(a*d - b*c, b*d);
+        return new Fractions(a*d - b*c, b*d );
     }
     
     public Fractions multiply(Fractions op2)
@@ -97,7 +98,7 @@ public class Fractions {
         int c = op2.numerator;
         int d = op2.denominator;
         
-        return new Fractions(a*c, b*d);
+        return new Fractions(a*c, b*d );
     }
     
     public Fractions divide(Fractions op2)
@@ -107,6 +108,6 @@ public class Fractions {
         int c = op2.numerator;
         int d = op2.denominator;
         
-        return new Fractions(a*d, b*c);
+        return new Fractions(a*d, b*c );
     }
 }
