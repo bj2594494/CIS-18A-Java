@@ -1,0 +1,8 @@
+Programmer Name: Byeongju Jung
+Assignment Start: 11/07/18, 4:20 P.M
+Assignment Completion: 07:11 P.M
+Total Hours For Assignment: ~2 hour 15min
+Comment: It was my first time using class in Java and I had some difficulties. The whole idea of class 
+was bit difficult for me to understand (both in C++ and Java) and I had some challenging time trying to figure out
+how to utilize the class that I wrote in the main class. But I do think that if I can fully
+use the class, it would make my future programming easier.
