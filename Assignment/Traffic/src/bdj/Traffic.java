@@ -1,3 +1,5 @@
+package bdj;
+
 enum TrafficSignal{
     RED, GREEN, YELLOW, WALK, DONT_WALK;
 }
@@ -18,7 +20,7 @@ public class Traffic {
                 System.out.println("Duration of green light is 30 seconds.");
                 break;
             case YELLOW:
-                System.out.println("Duration of red light is 5 seconds.");
+                System.out.println("Duration of yellow light is 5 seconds.");
                 break;
             case WALK:
                 System.out.println("You have 30 seconds to walk across.");
@@ -29,3 +31,4 @@ public class Traffic {
         }
     }
 }
+
