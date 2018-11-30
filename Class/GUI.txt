@@ -1,0 +1,11 @@
+GUI-Graphics User Interface
+	controls such as buttons, textbox, checkbox, radiobutton, container controls, groupbox
+
+GUI:
+	-AWT (Abstract Windows Template)
+	-Swing
+	-JavaFX <- uses a variation of xml
+
+Event driven programming -> listeners: wait and "listen" for an event or signal to occur
+
+*Android Studio - Android dev uses xml
