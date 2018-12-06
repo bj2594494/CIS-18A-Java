@@ -1,0 +1,12 @@
+Final covers
+Ch.1 the basics of Java
+Ch.2 Java IO - println, print, printf <- format specifier, Scanner class, identifiers
+Ch.3 expression - order of operations, static math class, conditional statements
+Ch.4 Loops - while loops, do while, for loops, switch/case/breaks
+Ch.5 methods, parameters, arguments, overloading, static, non-static, primitive types
+Ch.6 Arrays - zero is first subscript -> size 1, where size is #of items; multidimension; subscript 
+		out of bounds exceptions, reference variable, range based for loops, BigInteger, BigDecimal 
+Ch.7/8 Classes - UML: class name, class properties(attribution), class actions(methods)
+		-private,+public,#protected, member variables, constructors
+Ch.9 
+Ch.10 

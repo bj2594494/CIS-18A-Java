@@ -7,7 +7,7 @@ package fal18;
 // 2. a. Create private boolean member variable named newModel and initialize to false.
 //    b. Create private double member variable named rentalCost and initialize to 25.0.
 //    c. Create private long member variable named rentalNumber and initialize to 1.
-abstract class SportShotRental{
+abstract class SportShopRental{
     private boolean newModel=false;
     private double rentalCost=25.0;
     private long rentalNumber=1;
@@ -16,8 +16,6 @@ abstract class SportShotRental{
 // 3. Create all getters and setters for private member variables created in step #2. Note below is specifics for data validation 
 //    in specified setter methods below:
 
- 
-    
     /**
      * @return the newModel
      */
@@ -69,7 +67,7 @@ abstract class SportShotRental{
      */
     public void setRentalNumber(long rentalNumber) {
         this.rentalNumber = rentalNumber;
-        if (rentalNumber<0||rentalNumber>999999999999l){
+        if (rentalNumber<0||rentalNumber>999999999999L){
             throw new IllegalArgumentException("RentalNumber out of range");
         }
     }
@@ -82,7 +80,7 @@ abstract class SportShotRental{
     
     @Override
     public String toString(){
-        return String.format("Rental #%d, Cost: $%f7.2, New: %b",rentalNumber,rentalCost,newModel);
+        return String.format("Rental #%d, Cost: $%7.2f, New: %b",rentalNumber,rentalCost,newModel);
     }
     
 // 5. Create the abstract method lateCharge that takes no parameters and returns the late charge as a double.
